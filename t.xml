@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+
+<CrystalReport xmlns="urn:crystal-reports:schemas:report-detail"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:crystal-reports:schemas:report-detail http://www.businessobjects.com/products/xml/CR2008Schema.xsd">
+<Group Level="1">
+<GroupHeader>
+<Section SectionNumber="0">
+<Text Name="Text2"><TextValue>Service Name:</TextValue>
+</Text>
+<Field Name="SERVICELONGNAME1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.SERVICELONGNAME}"><FormattedValue>Chobe Princess</FormattedValue><Value>Chobe Princess</Value></Field>
+<Text Name="Text10"><TextValue>Supplier:</TextValue>
+</Text>
+<Field Name="SUPPLIERNAME1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.SUPPLIERNAME}"><FormattedValue>Zambezi Queen Collection</FormattedValue><Value>Zambezi Queen Collection</Value></Field>
+<Field Name="SERVICESHORTNAME1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.SERVICESHORTNAME}"><FormattedValue>CHOPRI</FormattedValue><Value>CHOPRI</Value></Field>
+</Section>
+</GroupHeader>
+<Group Level="2">
+<GroupHeader>
+<Section SectionNumber="0">
+<Text Name="Text13"><TextValue>Service Status:</TextValue>
+</Text>
+<Field Name="SERVICESTATUSNAME1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.SERVICESTATUSNAME}"><FormattedValue>Active</FormattedValue><Value>Active</Value></Field>
+<Text Name="Text3"><TextValue>Service Type:</TextValue>
+</Text>
+<Field Name="SERVICETYPENAME1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.SERVICETYPENAME}"><FormattedValue>Accommodation</FormattedValue><Value>Accommodation</Value></Field>
+</Section>
+</GroupHeader>
+<Group Level="3">
+<GroupHeader>
+<Section SectionNumber="0">
+<Text Name="Text4"><TextValue>Contract Name:</TextValue>
+</Text>
+<Field Name="ORGANISATIONSUPPLIERCONTRACTNAME1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.ORGANISATIONSUPPLIERCONTRACTNAME}"><FormattedValue>Chobe Princess 2023</FormattedValue><Value>Chobe Princess 2023</Value></Field>
+<Text Name="Text11"><TextValue>Contract Duration From</TextValue>
+</Text>
+<Field Name="CONTRACTDURATIONSTARTDATE1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.CONTRACTDURATIONSTARTDATE}"><FormattedValue>1/1/2023</FormattedValue><Value>2023-01-01</Value></Field>
+<Text Name="Text12"><TextValue>To</TextValue>
+</Text>
+<Field Name="CONTRACTDURATIONENDDATE1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.CONTRACTDURATIONENDDATE}"><FormattedValue>12/31/2023</FormattedValue><Value>2023-12-31</Value></Field>
+</Section>
+</GroupHeader>
+<Group Level="4">
+<GroupHeader>
+<Section SectionNumber="0">
+<Text Name="Text7"><TextValue>Season:</TextValue>
+</Text>
+<Field Name="SEASONTYPENAME1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.SEASONTYPENAME}"><FormattedValue>Low Season</FormattedValue><Value>Low Season</Value></Field>
+<Text Name="Text5"><TextValue>Season Duration From</TextValue>
+</Text>
+<Text Name="Text9"><TextValue>To</TextValue>
+</Text>
+<Field Name="DATERANGESTARTDATE1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.DATERANGESTARTDATE}"><FormattedValue>12/1/2023</FormattedValue><Value>2023-12-01</Value></Field>
+<Field Name="DATERANGEENDDATE1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.DATERANGEENDDATE}"><FormattedValue>12/31/2023</FormattedValue><Value>2023-12-31</Value></Field>
+</Section>
+</GroupHeader>
+<Details Level="5">
+<Section SectionNumber="0">
+<Subreport Name="Subreport1">
+<ReportHeader>
+<Section SectionNumber="0">
+<Text Name="Text1"><TextValue>Meal Plan</TextValue>
+</Text>
+<Text Name="Text2"><TextValue>Sun</TextValue>
+</Text>
+<Text Name="Text3"><TextValue>Sat</TextValue>
+</Text>
+<Text Name="Text4"><TextValue>Fri</TextValue>
+</Text>
+<Text Name="Text5"><TextValue>Thu</TextValue>
+</Text>
+<Text Name="Text6"><TextValue>Wed</TextValue>
+</Text>
+<Text Name="Text7"><TextValue>Tue</TextValue>
+</Text>
+<Text Name="Text8"><TextValue>Mon</TextValue>
+</Text>
+<Text Name="Text9"><TextValue>On Sale</TextValue>
+</Text>
+<Text Name="Text10"><TextValue>INet</TextValue>
+</Text>
+<Text Name="Text11"><TextValue>Amount</TextValue>
+</Text>
+<Text Name="Text12"><TextValue>Booking Type</TextValue>
+</Text>
+<Text Name="Text13"><TextValue>Price Type</TextValue>
+</Text>
+<Text Name="Text14"><TextValue>Buying Price</TextValue>
+</Text>
+<Text Name="Text15"><TextValue>Child Policy</TextValue>
+</Text>
+<Text Name="Text16"><TextValue>Charging Policy</TextValue>
+</Text>
+</Section>
+</ReportHeader>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Standard Cabin (DBL)</FormattedValue><Value>Standard Cabin (DBL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue>Child Policy 29</FormattedValue><Value>Child Policy 29</Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 5552.00</FormattedValue><Value>ZAR 5552.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Standard Cabin (SGL)</FormattedValue><Value>Standard Cabin (SGL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 7217.60</FormattedValue><Value>ZAR 7217.60</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Superior Cabin (DBL)</FormattedValue><Value>Superior Cabin (DBL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue>Child Policy 29</FormattedValue><Value>Child Policy 29</Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 6662.00</FormattedValue><Value>ZAR 6662.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Superior Cabin (SGL)</FormattedValue><Value>Superior Cabin (SGL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 8660.60</FormattedValue><Value>ZAR 8660.60</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+</Subreport>
+</Section>
+<Section SectionNumber="1">
+<Subreport Name="Subreport2">
+<ReportHeader>
+<Section SectionNumber="1">
+<Text Name="Text17"><TextValue>Extras</TextValue>
+</Text>
+</Section>
+</ReportHeader>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEEXTRANAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.SERVICETYPEEXTRANAME}"><FormattedValue>E0027 - Community development levy</FormattedValue><Value>E0027 - Community development levy</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHILDPOLICYNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 90.00</FormattedValue><Value>ZAR 90.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.MEALPLANNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEEXTRANAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.SERVICETYPEEXTRANAME}"><FormattedValue>E0035 - Fuel Surcharge</FormattedValue><Value>E0035 - Fuel Surcharge</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Day</FormattedValue><Value>Per Person per Day</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHILDPOLICYNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 250.00</FormattedValue><Value>ZAR 250.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.MEALPLANNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Subreport>
+</Section>
+</Details>
+</Group>
+<Group Level="4">
+<GroupHeader>
+<Section SectionNumber="0">
+<Text Name="Text7"><TextValue>Season:</TextValue>
+</Text>
+<Field Name="SEASONTYPENAME1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.SEASONTYPENAME}"><FormattedValue>High Season</FormattedValue><Value>High Season</Value></Field>
+<Text Name="Text5"><TextValue>Season Duration From</TextValue>
+</Text>
+<Text Name="Text9"><TextValue>To</TextValue>
+</Text>
+<Field Name="DATERANGESTARTDATE1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.DATERANGESTARTDATE}"><FormattedValue>3/1/2023</FormattedValue><Value>2023-03-01</Value></Field>
+<Field Name="DATERANGEENDDATE1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.DATERANGEENDDATE}"><FormattedValue>11/30/2023</FormattedValue><Value>2023-11-30</Value></Field>
+</Section>
+</GroupHeader>
+<Details Level="5">
+<Section SectionNumber="0">
+<Subreport Name="Subreport1">
+<ReportHeader>
+<Section SectionNumber="0">
+<Text Name="Text1"><TextValue>Meal Plan</TextValue>
+</Text>
+<Text Name="Text2"><TextValue>Sun</TextValue>
+</Text>
+<Text Name="Text3"><TextValue>Sat</TextValue>
+</Text>
+<Text Name="Text4"><TextValue>Fri</TextValue>
+</Text>
+<Text Name="Text5"><TextValue>Thu</TextValue>
+</Text>
+<Text Name="Text6"><TextValue>Wed</TextValue>
+</Text>
+<Text Name="Text7"><TextValue>Tue</TextValue>
+</Text>
+<Text Name="Text8"><TextValue>Mon</TextValue>
+</Text>
+<Text Name="Text9"><TextValue>On Sale</TextValue>
+</Text>
+<Text Name="Text10"><TextValue>INet</TextValue>
+</Text>
+<Text Name="Text11"><TextValue>Amount</TextValue>
+</Text>
+<Text Name="Text12"><TextValue>Booking Type</TextValue>
+</Text>
+<Text Name="Text13"><TextValue>Price Type</TextValue>
+</Text>
+<Text Name="Text14"><TextValue>Buying Price</TextValue>
+</Text>
+<Text Name="Text15"><TextValue>Child Policy</TextValue>
+</Text>
+<Text Name="Text16"><TextValue>Charging Policy</TextValue>
+</Text>
+</Section>
+</ReportHeader>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Standard Cabin (DBL)</FormattedValue><Value>Standard Cabin (DBL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue>Child Policy 29</FormattedValue><Value>Child Policy 29</Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 7467.00</FormattedValue><Value>ZAR 7467.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Standard Cabin (SGL)</FormattedValue><Value>Standard Cabin (SGL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 9707.10</FormattedValue><Value>ZAR 9707.10</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Superior Cabin (DBL)</FormattedValue><Value>Superior Cabin (DBL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue>Child Policy 29</FormattedValue><Value>Child Policy 29</Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 8961.00</FormattedValue><Value>ZAR 8961.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Superior Cabin (SGL)</FormattedValue><Value>Superior Cabin (SGL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 11649.30</FormattedValue><Value>ZAR 11649.30</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+</Subreport>
+</Section>
+<Section SectionNumber="1">
+<Subreport Name="Subreport2">
+<ReportHeader>
+<Section SectionNumber="1">
+<Text Name="Text17"><TextValue>Extras</TextValue>
+</Text>
+</Section>
+</ReportHeader>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEEXTRANAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.SERVICETYPEEXTRANAME}"><FormattedValue>E0027 - Community development levy</FormattedValue><Value>E0027 - Community development levy</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHILDPOLICYNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 90.00</FormattedValue><Value>ZAR 90.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.MEALPLANNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEEXTRANAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.SERVICETYPEEXTRANAME}"><FormattedValue>E0035 - Fuel Surcharge</FormattedValue><Value>E0035 - Fuel Surcharge</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Day</FormattedValue><Value>Per Person per Day</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHILDPOLICYNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 250.00</FormattedValue><Value>ZAR 250.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.MEALPLANNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Subreport>
+</Section>
+</Details>
+</Group>
+<Group Level="4">
+<GroupHeader>
+<Section SectionNumber="0">
+<Text Name="Text7"><TextValue>Season:</TextValue>
+</Text>
+<Field Name="SEASONTYPENAME1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.SEASONTYPENAME}"><FormattedValue>Low Season</FormattedValue><Value>Low Season</Value></Field>
+<Text Name="Text5"><TextValue>Season Duration From</TextValue>
+</Text>
+<Text Name="Text9"><TextValue>To</TextValue>
+</Text>
+<Field Name="DATERANGESTARTDATE1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.DATERANGESTARTDATE}"><FormattedValue>1/1/2023</FormattedValue><Value>2023-01-01</Value></Field>
+<Field Name="DATERANGEENDDATE1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.DATERANGEENDDATE}"><FormattedValue>2/28/2023</FormattedValue><Value>2023-02-28</Value></Field>
+</Section>
+</GroupHeader>
+<Details Level="5">
+<Section SectionNumber="0">
+<Subreport Name="Subreport1">
+<ReportHeader>
+<Section SectionNumber="0">
+<Text Name="Text1"><TextValue>Meal Plan</TextValue>
+</Text>
+<Text Name="Text2"><TextValue>Sun</TextValue>
+</Text>
+<Text Name="Text3"><TextValue>Sat</TextValue>
+</Text>
+<Text Name="Text4"><TextValue>Fri</TextValue>
+</Text>
+<Text Name="Text5"><TextValue>Thu</TextValue>
+</Text>
+<Text Name="Text6"><TextValue>Wed</TextValue>
+</Text>
+<Text Name="Text7"><TextValue>Tue</TextValue>
+</Text>
+<Text Name="Text8"><TextValue>Mon</TextValue>
+</Text>
+<Text Name="Text9"><TextValue>On Sale</TextValue>
+</Text>
+<Text Name="Text10"><TextValue>INet</TextValue>
+</Text>
+<Text Name="Text11"><TextValue>Amount</TextValue>
+</Text>
+<Text Name="Text12"><TextValue>Booking Type</TextValue>
+</Text>
+<Text Name="Text13"><TextValue>Price Type</TextValue>
+</Text>
+<Text Name="Text14"><TextValue>Buying Price</TextValue>
+</Text>
+<Text Name="Text15"><TextValue>Child Policy</TextValue>
+</Text>
+<Text Name="Text16"><TextValue>Charging Policy</TextValue>
+</Text>
+</Section>
+</ReportHeader>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Standard Cabin (DBL)</FormattedValue><Value>Standard Cabin (DBL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue>Child Policy 29</FormattedValue><Value>Child Policy 29</Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 5552.00</FormattedValue><Value>ZAR 5552.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Standard Cabin (SGL)</FormattedValue><Value>Standard Cabin (SGL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 7217.60</FormattedValue><Value>ZAR 7217.60</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Superior Cabin (DBL)</FormattedValue><Value>Superior Cabin (DBL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue>Child Policy 29</FormattedValue><Value>Child Policy 29</Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 6662.00</FormattedValue><Value>ZAR 6662.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Superior Cabin (SGL)</FormattedValue><Value>Superior Cabin (SGL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 8660.60</FormattedValue><Value>ZAR 8660.60</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+</Subreport>
+</Section>
+<Section SectionNumber="1">
+<Subreport Name="Subreport2">
+<ReportHeader>
+<Section SectionNumber="1">
+<Text Name="Text17"><TextValue>Extras</TextValue>
+</Text>
+</Section>
+</ReportHeader>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEEXTRANAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.SERVICETYPEEXTRANAME}"><FormattedValue>E0027 - Community development levy</FormattedValue><Value>E0027 - Community development levy</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHILDPOLICYNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 90.00</FormattedValue><Value>ZAR 90.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.MEALPLANNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEEXTRANAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.SERVICETYPEEXTRANAME}"><FormattedValue>E0035 - Fuel Surcharge</FormattedValue><Value>E0035 - Fuel Surcharge</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Day</FormattedValue><Value>Per Person per Day</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHILDPOLICYNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 250.00</FormattedValue><Value>ZAR 250.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.MEALPLANNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Subreport>
+</Section>
+</Details>
+</Group>
+</Group>
+<GroupFooter>
+<Section SectionNumber="0">
+</Section>
+</GroupFooter>
+</Group>
+</Group>
+<Group Level="1">
+<GroupHeader>
+<Section SectionNumber="0">
+<Text Name="Text2"><TextValue>Service Name:</TextValue>
+</Text>
+<Field Name="SERVICELONGNAME1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.SERVICELONGNAME}"><FormattedValue>Zambezi Queen</FormattedValue><Value>Zambezi Queen</Value></Field>
+<Text Name="Text10"><TextValue>Supplier:</TextValue>
+</Text>
+<Field Name="SUPPLIERNAME1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.SUPPLIERNAME}"><FormattedValue>Zambezi Queen Collection</FormattedValue><Value>Zambezi Queen Collection</Value></Field>
+<Field Name="SERVICESHORTNAME1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.SERVICESHORTNAME}"><FormattedValue>ZAMQUE</FormattedValue><Value>ZAMQUE</Value></Field>
+</Section>
+</GroupHeader>
+<Group Level="2">
+<GroupHeader>
+<Section SectionNumber="0">
+<Text Name="Text13"><TextValue>Service Status:</TextValue>
+</Text>
+<Field Name="SERVICESTATUSNAME1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.SERVICESTATUSNAME}"><FormattedValue>Active</FormattedValue><Value>Active</Value></Field>
+<Text Name="Text3"><TextValue>Service Type:</TextValue>
+</Text>
+<Field Name="SERVICETYPENAME1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.SERVICETYPENAME}"><FormattedValue>Accommodation</FormattedValue><Value>Accommodation</Value></Field>
+</Section>
+</GroupHeader>
+<Group Level="3">
+<GroupHeader>
+<Section SectionNumber="0">
+<Text Name="Text4"><TextValue>Contract Name:</TextValue>
+</Text>
+<Field Name="ORGANISATIONSUPPLIERCONTRACTNAME1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.ORGANISATIONSUPPLIERCONTRACTNAME}"><FormattedValue>Zambezi Queen 2023</FormattedValue><Value>Zambezi Queen 2023</Value></Field>
+<Text Name="Text11"><TextValue>Contract Duration From</TextValue>
+</Text>
+<Field Name="CONTRACTDURATIONSTARTDATE1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.CONTRACTDURATIONSTARTDATE}"><FormattedValue>1/1/2023</FormattedValue><Value>2023-01-01</Value></Field>
+<Text Name="Text12"><TextValue>To</TextValue>
+</Text>
+<Field Name="CONTRACTDURATIONENDDATE1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.CONTRACTDURATIONENDDATE}"><FormattedValue>12/31/2023</FormattedValue><Value>2023-12-31</Value></Field>
+</Section>
+</GroupHeader>
+<Group Level="4">
+<GroupHeader>
+<Section SectionNumber="0">
+<Text Name="Text7"><TextValue>Season:</TextValue>
+</Text>
+<Field Name="SEASONTYPENAME1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.SEASONTYPENAME}"><FormattedValue>Season 1</FormattedValue><Value>Season 1</Value></Field>
+<Text Name="Text5"><TextValue>Season Duration From</TextValue>
+</Text>
+<Text Name="Text9"><TextValue>To</TextValue>
+</Text>
+<Field Name="DATERANGESTARTDATE1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.DATERANGESTARTDATE}"><FormattedValue>12/1/2023</FormattedValue><Value>2023-12-01</Value></Field>
+<Field Name="DATERANGEENDDATE1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.DATERANGEENDDATE}"><FormattedValue>12/31/2023</FormattedValue><Value>2023-12-31</Value></Field>
+</Section>
+</GroupHeader>
+<Details Level="5">
+<Section SectionNumber="0">
+<Subreport Name="Subreport1">
+<ReportHeader>
+<Section SectionNumber="0">
+<Text Name="Text1"><TextValue>Meal Plan</TextValue>
+</Text>
+<Text Name="Text2"><TextValue>Sun</TextValue>
+</Text>
+<Text Name="Text3"><TextValue>Sat</TextValue>
+</Text>
+<Text Name="Text4"><TextValue>Fri</TextValue>
+</Text>
+<Text Name="Text5"><TextValue>Thu</TextValue>
+</Text>
+<Text Name="Text6"><TextValue>Wed</TextValue>
+</Text>
+<Text Name="Text7"><TextValue>Tue</TextValue>
+</Text>
+<Text Name="Text8"><TextValue>Mon</TextValue>
+</Text>
+<Text Name="Text9"><TextValue>On Sale</TextValue>
+</Text>
+<Text Name="Text10"><TextValue>INet</TextValue>
+</Text>
+<Text Name="Text11"><TextValue>Amount</TextValue>
+</Text>
+<Text Name="Text12"><TextValue>Booking Type</TextValue>
+</Text>
+<Text Name="Text13"><TextValue>Price Type</TextValue>
+</Text>
+<Text Name="Text14"><TextValue>Buying Price</TextValue>
+</Text>
+<Text Name="Text15"><TextValue>Child Policy</TextValue>
+</Text>
+<Text Name="Text16"><TextValue>Charging Policy</TextValue>
+</Text>
+</Section>
+</ReportHeader>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Master Suite (DBL)</FormattedValue><Value>Master Suite (DBL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue>Child Policy 29</FormattedValue><Value>Child Policy 29</Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 9169.00</FormattedValue><Value>ZAR 9169.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Master Suite (SGL)</FormattedValue><Value>Master Suite (SGL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue>Child Policy 29</FormattedValue><Value>Child Policy 29</Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 11920.00</FormattedValue><Value>ZAR 11920.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Standard Suite (DBL)</FormattedValue><Value>Standard Suite (DBL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue>Child Policy 29</FormattedValue><Value>Child Policy 29</Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 7773.00</FormattedValue><Value>ZAR 7773.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Standard Suite (SGL)</FormattedValue><Value>Standard Suite (SGL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue>Child Policy 29</FormattedValue><Value>Child Policy 29</Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 10104.90</FormattedValue><Value>ZAR 10104.90</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+</Subreport>
+</Section>
+<Section SectionNumber="1">
+<Subreport Name="Subreport2">
+<ReportHeader>
+<Section SectionNumber="1">
+<Text Name="Text17"><TextValue>Extras</TextValue>
+</Text>
+</Section>
+</ReportHeader>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEEXTRANAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.SERVICETYPEEXTRANAME}"><FormattedValue>E0027 - Community development levy</FormattedValue><Value>E0027 - Community development levy</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHILDPOLICYNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 120.00</FormattedValue><Value>ZAR 120.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.MEALPLANNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEEXTRANAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.SERVICETYPEEXTRANAME}"><FormattedValue>E0035 - Fuel Surcharge</FormattedValue><Value>E0035 - Fuel Surcharge</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Day</FormattedValue><Value>Per Person per Day</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHILDPOLICYNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 250.00</FormattedValue><Value>ZAR 250.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.MEALPLANNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Subreport>
+</Section>
+</Details>
+</Group>
+<Group Level="4">
+<GroupHeader>
+<Section SectionNumber="0">
+<Text Name="Text7"><TextValue>Season:</TextValue>
+</Text>
+<Field Name="SEASONTYPENAME1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.SEASONTYPENAME}"><FormattedValue>Season 2</FormattedValue><Value>Season 2</Value></Field>
+<Text Name="Text5"><TextValue>Season Duration From</TextValue>
+</Text>
+<Text Name="Text9"><TextValue>To</TextValue>
+</Text>
+<Field Name="DATERANGESTARTDATE1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.DATERANGESTARTDATE}"><FormattedValue>3/1/2023</FormattedValue><Value>2023-03-01</Value></Field>
+<Field Name="DATERANGEENDDATE1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.DATERANGEENDDATE}"><FormattedValue>11/30/2023</FormattedValue><Value>2023-11-30</Value></Field>
+</Section>
+</GroupHeader>
+<Details Level="5">
+<Section SectionNumber="0">
+<Subreport Name="Subreport1">
+<ReportHeader>
+<Section SectionNumber="0">
+<Text Name="Text1"><TextValue>Meal Plan</TextValue>
+</Text>
+<Text Name="Text2"><TextValue>Sun</TextValue>
+</Text>
+<Text Name="Text3"><TextValue>Sat</TextValue>
+</Text>
+<Text Name="Text4"><TextValue>Fri</TextValue>
+</Text>
+<Text Name="Text5"><TextValue>Thu</TextValue>
+</Text>
+<Text Name="Text6"><TextValue>Wed</TextValue>
+</Text>
+<Text Name="Text7"><TextValue>Tue</TextValue>
+</Text>
+<Text Name="Text8"><TextValue>Mon</TextValue>
+</Text>
+<Text Name="Text9"><TextValue>On Sale</TextValue>
+</Text>
+<Text Name="Text10"><TextValue>INet</TextValue>
+</Text>
+<Text Name="Text11"><TextValue>Amount</TextValue>
+</Text>
+<Text Name="Text12"><TextValue>Booking Type</TextValue>
+</Text>
+<Text Name="Text13"><TextValue>Price Type</TextValue>
+</Text>
+<Text Name="Text14"><TextValue>Buying Price</TextValue>
+</Text>
+<Text Name="Text15"><TextValue>Child Policy</TextValue>
+</Text>
+<Text Name="Text16"><TextValue>Charging Policy</TextValue>
+</Text>
+</Section>
+</ReportHeader>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Master Suite (DBL)</FormattedValue><Value>Master Suite (DBL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue>Child Policy 29</FormattedValue><Value>Child Policy 29</Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 11116.00</FormattedValue><Value>ZAR 11116.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Master Suite (SGL)</FormattedValue><Value>Master Suite (SGL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue>Child Policy 29</FormattedValue><Value>Child Policy 29</Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 14450.80</FormattedValue><Value>ZAR 14450.80</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Standard Suite (DBL)</FormattedValue><Value>Standard Suite (DBL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue>Child Policy 29</FormattedValue><Value>Child Policy 29</Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 9418.00</FormattedValue><Value>ZAR 9418.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Standard Suite (SGL)</FormattedValue><Value>Standard Suite (SGL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue>Child Policy 29</FormattedValue><Value>Child Policy 29</Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 12243.40</FormattedValue><Value>ZAR 12243.40</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+</Subreport>
+</Section>
+<Section SectionNumber="1">
+<Subreport Name="Subreport2">
+<ReportHeader>
+<Section SectionNumber="1">
+<Text Name="Text17"><TextValue>Extras</TextValue>
+</Text>
+</Section>
+</ReportHeader>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEEXTRANAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.SERVICETYPEEXTRANAME}"><FormattedValue>E0027 - Community development levy</FormattedValue><Value>E0027 - Community development levy</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHILDPOLICYNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 120.00</FormattedValue><Value>ZAR 120.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.MEALPLANNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEEXTRANAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.SERVICETYPEEXTRANAME}"><FormattedValue>E0035 - Fuel Surcharge</FormattedValue><Value>E0035 - Fuel Surcharge</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Day</FormattedValue><Value>Per Person per Day</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHILDPOLICYNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 250.00</FormattedValue><Value>ZAR 250.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.MEALPLANNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Subreport>
+</Section>
+</Details>
+</Group>
+<Group Level="4">
+<GroupHeader>
+<Section SectionNumber="0">
+<Text Name="Text7"><TextValue>Season:</TextValue>
+</Text>
+<Field Name="SEASONTYPENAME1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.SEASONTYPENAME}"><FormattedValue>Season 1</FormattedValue><Value>Season 1</Value></Field>
+<Text Name="Text5"><TextValue>Season Duration From</TextValue>
+</Text>
+<Text Name="Text9"><TextValue>To</TextValue>
+</Text>
+<Field Name="DATERANGESTARTDATE1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.DATERANGESTARTDATE}"><FormattedValue>1/1/2023</FormattedValue><Value>2023-01-01</Value></Field>
+<Field Name="DATERANGEENDDATE1" FieldName="{usp_rpt_SERVICE_PRICES_MAIN_ALL;1.DATERANGEENDDATE}"><FormattedValue>2/28/2023</FormattedValue><Value>2023-02-28</Value></Field>
+</Section>
+</GroupHeader>
+<Details Level="5">
+<Section SectionNumber="0">
+<Subreport Name="Subreport1">
+<ReportHeader>
+<Section SectionNumber="0">
+<Text Name="Text1"><TextValue>Meal Plan</TextValue>
+</Text>
+<Text Name="Text2"><TextValue>Sun</TextValue>
+</Text>
+<Text Name="Text3"><TextValue>Sat</TextValue>
+</Text>
+<Text Name="Text4"><TextValue>Fri</TextValue>
+</Text>
+<Text Name="Text5"><TextValue>Thu</TextValue>
+</Text>
+<Text Name="Text6"><TextValue>Wed</TextValue>
+</Text>
+<Text Name="Text7"><TextValue>Tue</TextValue>
+</Text>
+<Text Name="Text8"><TextValue>Mon</TextValue>
+</Text>
+<Text Name="Text9"><TextValue>On Sale</TextValue>
+</Text>
+<Text Name="Text10"><TextValue>INet</TextValue>
+</Text>
+<Text Name="Text11"><TextValue>Amount</TextValue>
+</Text>
+<Text Name="Text12"><TextValue>Booking Type</TextValue>
+</Text>
+<Text Name="Text13"><TextValue>Price Type</TextValue>
+</Text>
+<Text Name="Text14"><TextValue>Buying Price</TextValue>
+</Text>
+<Text Name="Text15"><TextValue>Child Policy</TextValue>
+</Text>
+<Text Name="Text16"><TextValue>Charging Policy</TextValue>
+</Text>
+</Section>
+</ReportHeader>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Master Suite (DBL)</FormattedValue><Value>Master Suite (DBL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue>Child Policy 29</FormattedValue><Value>Child Policy 29</Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 9169.00</FormattedValue><Value>ZAR 9169.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Master Suite (SGL)</FormattedValue><Value>Master Suite (SGL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue>Child Policy 29</FormattedValue><Value>Child Policy 29</Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 11920.00</FormattedValue><Value>ZAR 11920.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Standard Suite (DBL)</FormattedValue><Value>Standard Suite (DBL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue>Child Policy 29</FormattedValue><Value>Child Policy 29</Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 7773.00</FormattedValue><Value>ZAR 7773.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEOPTIONNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.SERVICETYPEOPTIONNAME}"><FormattedValue>Standard Suite (SGL)</FormattedValue><Value>Standard Suite (SGL)</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.CHILDPOLICYNAME}"><FormattedValue>Child Policy 29</FormattedValue><Value>Child Policy 29</Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 10104.90</FormattedValue><Value>ZAR 10104.90</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_ALL;1.MEALPLANNAME}"><FormattedValue>Fully Inclusive</FormattedValue><Value>Fully Inclusive</Value></Field>
+</Section>
+</Details>
+</Subreport>
+</Section>
+<Section SectionNumber="1">
+<Subreport Name="Subreport2">
+<ReportHeader>
+<Section SectionNumber="1">
+<Text Name="Text17"><TextValue>Extras</TextValue>
+</Text>
+</Section>
+</ReportHeader>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEEXTRANAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.SERVICETYPEEXTRANAME}"><FormattedValue>E0027 - Community development levy</FormattedValue><Value>E0027 - Community development levy</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Night</FormattedValue><Value>Per Person per Night</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHILDPOLICYNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 120.00</FormattedValue><Value>ZAR 120.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.MEALPLANNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="SERVICETYPEEXTRANAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.SERVICETYPEEXTRANAME}"><FormattedValue>E0035 - Fuel Surcharge</FormattedValue><Value>E0035 - Fuel Surcharge</Value></Field>
+<Field Name="PRICETYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICETYPENAME}"><FormattedValue>Nett Cost Price</FormattedValue><Value>Nett Cost Price</Value></Field>
+<Field Name="BOOKINGTYPENAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BOOKINGTYPENAME}"><FormattedValue>FIT</FormattedValue><Value>FIT</Value></Field>
+<Field Name="CHARGINGPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHARGINGPOLICYNAME}"><FormattedValue>Per Person per Day</FormattedValue><Value>Per Person per Day</Value></Field>
+<Field Name="CHILDPOLICYNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.CHILDPOLICYNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="BUYAMOUNT1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.BUYAMOUNT}"><FormattedValue>ZAR 250.00</FormattedValue><Value>ZAR 250.00</Value></Field>
+<Field Name="PRICEAMOUNTONSALE1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTONSALE}"><FormattedValue>N</FormattedValue><Value>0</Value></Field>
+<Field Name="PRICEAMOUNTVALIDATED1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEAMOUNTVALIDATED}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYMONDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYMONDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTUESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTUESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYWEDNESDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYWEDNESDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYTHURSDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYTHURSDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYFRIDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYFRIDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSATURDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSATURDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="PRICEDAYSUNDAY1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.PRICEDAYSUNDAY}"><FormattedValue>Y</FormattedValue><Value>1</Value></Field>
+<Field Name="MEALPLANNAME1" FieldName="{usp_RPT_sub_BUYING_PRICES_EXTRA_ALL;1.MEALPLANNAME}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Subreport>
+</Section>
+</Details>
+</Group>
+</Group>
+<GroupFooter>
+<Section SectionNumber="0">
+</Section>
+</GroupFooter>
+</Group>
+</Group>
+</CrystalReport>
+</root>
